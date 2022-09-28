@@ -4,7 +4,10 @@
   become: false
 
   tasks:
-  - name: install htop
+  - name: install htop/tmux/zsh
     package:
-      name: htop
+      name: 
+        - htop
+        - tmux
+        - zsh
 
